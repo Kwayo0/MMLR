@@ -1,0 +1,14 @@
+MeshInstance3D
+AnimationPlayer
+CollisionShape3D
+CharacterBody3D
+OmniLight3D
+WorldEnvironment
+StaticBody3D
+GridMap
+CollisionPolygon3D
+Node3D
+Area3D
+DirectionalLight3D
+LightmapGI
+Camera3D

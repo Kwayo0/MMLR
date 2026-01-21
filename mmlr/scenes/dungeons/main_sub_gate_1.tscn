@@ -1,0 +1,96 @@
+[gd_scene load_steps=13 format=3 uid="uid://0h086jxbc0j"]
+
+[ext_resource type="MeshLibrary" uid="uid://b6c0kq3ohlddi" path="res://assets/lib.tres" id="1_uam4j"]
+[ext_resource type="Script" uid="uid://c5n6md5kvodl8" path="res://scenes/dungeons/main_sub_gate_1.gd" id="1_yxwif"]
+[ext_resource type="PackedScene" uid="uid://bnhri88p0nehp" path="res://scenes/characters/megaman.tscn" id="2_4fwru"]
+[ext_resource type="PackedScene" uid="uid://ca5ijfjdvqu1o" path="res://scenes/warp_zone.tscn" id="4_dki5k"]
+[ext_resource type="Texture2D" uid="uid://eaqsv27awwtq" path="res://assets/textures/Floor Base.png" id="5_d6r40"]
+[ext_resource type="Texture2D" uid="uid://crx1gchyxriax" path="res://assets/textures/wall maps/AmbientOcclusionMap.png" id="6_q8bdo"]
+[ext_resource type="Texture2D" uid="uid://imbk2aru5du6" path="res://assets/textures/wall maps/WallNormal.png" id="7_7olox"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_c4wp1"]
+
+[sub_resource type="Environment" id="Environment_c4wp1"]
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lph2k"]
+transparency = 2
+alpha_scissor_threshold = 0.1
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("5_d6r40")
+metallic_specular = 0.0
+normal_enabled = true
+normal_texture = ExtResource("7_7olox")
+ao_enabled = true
+ao_texture = ExtResource("6_q8bdo")
+texture_filter = 0
+
+[sub_resource type="BoxMesh" id="BoxMesh_57rna"]
+material = SubResource("StandardMaterial3D_lph2k")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5mmdv"]
+size = Vector3(1, 1, 0.2)
+
+[node name="dungeon" type="Node3D"]
+script = ExtResource("1_yxwif")
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("1_uam4j")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(-1, 65535, 393216, -1, 65534, 393216, -1, 65533, 393216, -2, 65534, 393216, -65536, 65534, 393216, -65536, 65533, 393216, -65536, 65535, 393216, -2, 65535, 393216, -2, 65533, 393216, -3, 65534, 393216, -4, 65534, 393216, -5, 65534, 393216, -5, 65535, 393216, -5, 0, 393216, -6, 1, 393216, -6, 2, 393216, -6, 3, 393216, -5, 3, 393216, -5, 2, 393216, -5, 1, 393216, 65532, 1, 1441797, 65532, 2, 1441797, 65532, 3, 1441797, 65533, 1, 393216, 65533, 2, 393216, 65533, 3, 393216, -5, 4, 393216, -5, 5, 393216, -5, 6, 393216, -5, 7, 393216, -6, 6, 393216, -7, 6, 393216, -8, 6, 393216, -65544, 10, 393216, -65544, 11, 393216, -65545, 10, 393216, -65546, 10, 393216, -65547, 11, 393216, -65548, 11, 393216, -65549, 11, 393216, -65549, 10, 393216, -65549, 9, 393216, -65548, 9, 393216, -65547, 9, 393216, -65547, 10, 393216, -65548, 10, 393216, -65548, 8, 393216, -65548, 6, 393216, -65548, 7, 393216, -65547, 6, 393216, -65549, 6, 393216, -65549, 5, 393216, -65548, 5, 393216, -65547, 5, 393216, -65551, 5, 393216, -65550, 5, 393216, -65552, 5, 393216, -65553, 5, 393216, -65553, 6, 393216, -65554, 5, 393216, -65554, 6, 393216, -131089, 10, 393216, -131090, 10, 393216, -131089, 11, 393216, -131089, 12, 393216, -131089, 13, 393216, -131088, 13, 393216, -131087, 13, 393216, -131087, 14, 393216, -131087, 15, 393216, -131088, 16, 393216, -131087, 16, 393216, -131086, 16, 393216, -131086, 17, 393216, -131086, 18, 393216, -131087, 18, 393216, -131088, 18, 393216, -131088, 17, 393216, -131087, 17, 393216, -131089, 17, 393216, -131087, 19, 393216, -131085, 17, 393216, -131084, 17, 393216, -131083, 17, 393216, -131083, 16, 393216, -131083, 18, 393216, -131082, 18, 393216, -131081, 18, 393216, -131081, 17, 393216, -131081, 16, 393216, -131082, 16, 393216, -131082, 17, 393216, -131080, 17, 393216, -131082, 15, 393216, -131082, 19, 393216, -65544, 9, 393216, -65544, 8, 393216, -65544, 7, 393216, -8, 8, 458754, 65534, 0, 655365, 65535, 0, 655365, 0, 0, 655365, 65533, 65535, 1048577, 65532, 65535, 655361, 131069, 4, 655365, 131068, 4, 655365, 65530, 4, 1048577, 65531, 8, 655365, 65530, 7, 1048577, 65529, 7, 655361, -8, 12, 655365, -9, 11, 1048577, -10, 11, 655361, -11, 12, 655365, -12, 12, 655365, -13, 12, 655365, -11, 7, 655361, -13, 7, 1048577, -14, 6, 1048577, -15, 6, 655365, -16, 6, 655361, -65554, 11, 1048577, -65553, 14, 655365, -65552, 14, 1048577, -65552, 19, 1048577, -65551, 20, 655365, -65550, 19, 655361, -65549, 18, 655361, -65548, 18, 1048577, -65547, 19, 1048577, -65546, 20, 655365, -65545, 19, 655361, -65544, 18, 655361, -65554, 17, 1048581, -65553, 16, 1, -65552, 15, 1, -65548, 16, 1, -65549, 16, 1441793, -65546, 14, 5, -65547, 15, 1, -65545, 15, 1441793, -65544, 16, 1441793, -65550, 15, 1441793, -65551, 12, 5, -65552, 12, 1441793, -18, 4, 5, -17, 4, 5, -16, 4, 5, -15, 4, 5, -14, 4, 1048581, -13, 8, 1, -11, 8, 1441793, -10, 9, 1441793, -9, 9, 1048581, 65528, 5, 5, 65529, 5, 5, 65530, 5, 1, 65530, 0, 1, 0, 65532, 5, 65534, 65532, 5, 65533, 65533, 1, 65532, 65533, 5, 65531, 65533, 5, 65530, 65534, 1048581, 65530, 65535, 1048581, 65529, 1, 1048581, 65529, 2, 1048581, 65529, 3, 1048581, 65527, 6, 1048581, 65527, 7, 1048581, 65527, 8, 1048581, 65527, 9, 1048581, -14, 11, 1048581, -14, 10, 1048581, -14, 9, 1048581, -19, 5, 1048581, -19, 6, 1048581, -19, 7, 1048581, -19, 8, 1048581, -19, 9, 1048581, -65555, 10, 1048581, -65554, 12, 1048581, -65554, 13, 1048581, -65553, 18, 1048577, 1, 65533, 1441797, 1, 65534, 1441797, 1, 65535, 1441797, 65532, 0, 1441797, 131070, 1, 1441797, 131070, 2, 1441797, 131070, 3, 1441797, 131069, 0, 5, 131068, 0, 5, 65532, 4, 1441797, 65532, 5, 1441797, 65532, 6, 1441797, 65532, 7, 1441797, 65529, 8, 1441797, 65529, 9, 1441797, -7, 10, 1441797, -7, 11, 1441797, -10, 5, 1441797, -10, 6, 1441797, -16, 7, 1441797, -16, 8, 1441797, -16, 9, 1441797, -65552, 10, 1441797, -65552, 11, 1441797, -65550, 13, 1441797, -65550, 14, 1441797, -65543, 17, 1441797, -65554, 8, 458754, -65553, 8, 458754, 65535, 65532, 1441795, 65535, 65531, 1441796, -9, 8, 1048581, -9, 7, 1048581, -7, 9, 1441797, -7, 8, 1441797, -7, 7, 1441797, -65555, 9, 1048581, -65555, 8, 1048581, -65555, 7, 1048581, -65552, 7, 1441797, -65552, 8, 1441797, -65552, 9, 1441797, -13, 4, 1441804, -12, 4, 1441804, -11, 4, 1441804, -10, 4, 1441797)
+}
+metadata/_editor_floor_ = Vector3(0, -1, 0)
+
+[node name="Megaman" parent="." instance=ExtResource("2_4fwru")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, -0.5)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Megaman"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09070408, 0.26485923, -0.0633806)
+
+[node name="LightmapGI" type="LightmapGI" parent="."]
+camera_attributes = SubResource("CameraAttributesPractical_c4wp1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_c4wp1")
+
+[node name="Warp Zone" parent="." instance=ExtResource("4_dki5k")]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, -0.5, 0.5, -5.5)
+
+[node name="Enemies" type="Node3D" parent="."]
+
+[node name="Objects" type="Node3D" parent="."]
+
+[node name="1_floor" type="MeshInstance3D" parent="Objects"]
+transform = Transform3D(-1, -8.742278e-08, -3.821371e-15, 0, -4.371139e-08, 1, -8.742278e-08, 1, 4.371139e-08, -3.5, 0.5, 1.5)
+mesh = SubResource("BoxMesh_57rna")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Objects/1_floor"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Objects/1_floor/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4)
+shape = SubResource("BoxShape3D_5mmdv")
+
+[node name="1_floor2" type="MeshInstance3D" parent="Objects"]
+transform = Transform3D(-1, -8.742278e-08, -3.821371e-15, 0, -4.371139e-08, 1, -8.742278e-08, 1, 4.371139e-08, -3.5, 0.5, 2.5)
+mesh = SubResource("BoxMesh_57rna")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Objects/1_floor2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Objects/1_floor2/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4)
+shape = SubResource("BoxShape3D_5mmdv")
+
+[node name="1_floor3" type="MeshInstance3D" parent="Objects"]
+transform = Transform3D(-1, -8.742278e-08, -3.821371e-15, 0, -4.371139e-08, 1, -8.742278e-08, 1, 4.371139e-08, -3.5, 0.5, 3.5)
+mesh = SubResource("BoxMesh_57rna")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Objects/1_floor3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Objects/1_floor3/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.4)
+shape = SubResource("BoxShape3D_5mmdv")
+
+[connection signal="body_entered" from="Warp Zone" to="." method="_on_warp_zone_body_entered"]

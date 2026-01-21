@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://b1eg4lgqwdml7"]
+
+[ext_resource type="MeshLibrary" uid="uid://b6c0kq3ohlddi" path="res://assets/lib.tres" id="1_lpe30"]
+[ext_resource type="PackedScene" uid="uid://bnhri88p0nehp" path="res://scenes/characters/megaman.tscn" id="2_4juoy"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_xvgsr"]
+
+[sub_resource type="Environment" id="Environment_oqwcg"]
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 0.5
+
+[node name="dungeon" type="Node3D"]
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource("1_lpe30")
+cell_size = Vector3(1, 1, 1)
+metadata/_editor_floor_ = Vector3(0, -2, 0)
+
+[node name="Megaman" parent="." instance=ExtResource("2_4juoy")]
+
+[node name="LightmapGI" type="LightmapGI" parent="."]
+camera_attributes = SubResource("CameraAttributesPractical_xvgsr")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_oqwcg")
+
+[node name="Enemies" type="Node3D" parent="."]
+
+[node name="Objects" type="Node3D" parent="."]

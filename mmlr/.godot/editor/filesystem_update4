@@ -1,0 +1,13 @@
+res://assets/apple_market.tscn
+res://assets/lib.tres
+res://assets/apple_market_lib.tres
+res://assets/apple_market_lib.tscn
+res://assets/models/material_1.tres
+res://assets/models/material_0.tres
+res://scenes/apple_market.tscn
+res://assets/models/Servbot.tscn
+res://scenes/megaman.tscn
+res://scenes/overworld_template.tscn
+res://scenes/overworld/apple_market.tscn
+res://scenes/characters/Servbot.tscn
+res://scenes/characters/servbot.gd

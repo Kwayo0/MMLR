@@ -1,0 +1,100 @@
+[gd_scene load_steps=20 format=3 uid="uid://cl27buxbabs82"]
+
+[ext_resource type="ArrayMesh" uid="uid://88hvoxevhgep" path="res://assets/objs/Apple Market/book_store.obj" id="1_wkg2i"]
+[ext_resource type="Texture2D" uid="uid://cu3rx8blhv1iw" path="res://assets/textures/apple market/Apple Market Carpet.png" id="1_wnp8o"]
+[ext_resource type="ArrayMesh" uid="uid://reg62fjup6ip" path="res://assets/objs/Apple Market/Hipbone.obj" id="2_4rws8"]
+[ext_resource type="Texture2D" uid="uid://eu1bue45ovaf" path="res://assets/textures/apple market/Apple Market Carpet Normal.png" id="2_6fbyf"]
+[ext_resource type="ArrayMesh" uid="uid://cjcqu3kj4cpg2" path="res://assets/objs/Apple Market/Sharkskin_Bakery.obj" id="3_u6ys8"]
+[ext_resource type="ArrayMesh" uid="uid://cdtmkb11ohqgw" path="res://assets/objs/Apple Market/Tailor_Chinos.obj" id="4_5wfjs"]
+[ext_resource type="ArrayMesh" uid="uid://bugk54ru2l8fr" path="res://assets/objs/Apple Market/Bronte_Vegetables.obj" id="5_5wfjs"]
+[ext_resource type="ArrayMesh" uid="uid://chlgglv80n1cp" path="res://assets/objs/Apple Market/High_Necked_Records.obj" id="6_5l0vd"]
+[ext_resource type="ArrayMesh" uid="uid://ebvqywl07iu1" path="res://assets/objs/Apple Market/Staple_Electronics.obj" id="7_t00lg"]
+[ext_resource type="ArrayMesh" uid="uid://4vos8e2k1ly1" path="res://assets/objs/Apple Market/Akbar_Toys.obj" id="8_imx27"]
+[ext_resource type="ArrayMesh" uid="uid://x5iomyx0gmac" path="res://assets/objs/Apple Market/Jetlag_Bakery.obj" id="9_jw56f"]
+[ext_resource type="ArrayMesh" uid="uid://dcgi3umqkn12l" path="res://assets/objs/Apple Market/Jump_Shop.obj" id="10_wnp8o"]
+[ext_resource type="ArrayMesh" uid="uid://c3n6g2n40ns03" path="res://assets/objs/Apple Market/Roof_End.obj" id="11_t00lg"]
+[ext_resource type="ArrayMesh" uid="uid://bu52er8aodg56" path="res://assets/objs/Apple Market/Roof.obj" id="12_imx27"]
+[ext_resource type="ArrayMesh" uid="uid://krv8ausvv685" path="res://assets/objs/Apple Market/End_Wall.obj" id="13_jw56f"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6fbyf"]
+transparency = 2
+alpha_scissor_threshold = 0.1
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("1_wnp8o")
+normal_enabled = true
+normal_texture = ExtResource("2_6fbyf")
+texture_filter = 0
+
+[sub_resource type="BoxMesh" id="BoxMesh_tbr8h"]
+material = SubResource("StandardMaterial3D_6fbyf")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_mdsc0"]
+points = PackedVector3Array(-0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5)
+
+[sub_resource type="BoxMesh" id="BoxMesh_wnp8o"]
+
+[node name="Apple Market Lib" type="Node3D"]
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_tbr8h")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Floor"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_mdsc0")
+
+[node name="Bookstore" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+mesh = ExtResource("1_wkg2i")
+
+[node name="Hipbone" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+mesh = ExtResource("2_4rws8")
+
+[node name="Sharkskin" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
+mesh = ExtResource("3_u6ys8")
+
+[node name="Chinos" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0, 0)
+mesh = ExtResource("4_5wfjs")
+
+[node name="Vegetables" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 0)
+mesh = ExtResource("5_5wfjs")
+
+[node name="Records" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11, 0, 0)
+mesh = ExtResource("6_5l0vd")
+
+[node name="Electronics" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, 0, 0)
+mesh = ExtResource("7_t00lg")
+
+[node name="Toys" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 0)
+mesh = ExtResource("8_imx27")
+
+[node name="Jetlag" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
+mesh = ExtResource("9_jw56f")
+
+[node name="Junk" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 0)
+mesh = ExtResource("10_wnp8o")
+
+[node name="Side_Roof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19, 0, 0)
+mesh = ExtResource("11_t00lg")
+
+[node name="Roof" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, 0)
+mesh = ExtResource("12_imx27")
+
+[node name="End_Wall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
+mesh = ExtResource("13_jw56f")
+
+[node name="Wall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0, 0)
+mesh = SubResource("BoxMesh_wnp8o")

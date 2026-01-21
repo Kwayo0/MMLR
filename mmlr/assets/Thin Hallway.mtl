@@ -1,0 +1,10 @@
+# Made in Blockbench 5.0.7
+newmtl m_cf34cfc7-34fc-0982-8838-bbf59a004b1e
+map_Kd Floor Base.png
+newmtl m_c713f7da-e8b0-b9f4-5056-795a9acbf92d
+map_Kd RoofBase.png
+newmtl m_48272f5e-1d47-eab8-cbbb-dc3ca1ba99e5
+map_Kd Wall Base.png
+newmtl m_ec9decb4-b2b5-847f-c74f-e3cb5bcccaee
+map_Kd Invisible.png
+newmtl none

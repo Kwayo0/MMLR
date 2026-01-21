@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://d3amehjbcoufy"]
+
+[ext_resource type="PackedScene" uid="uid://bqv85i5perlgv" path="res://scenes/overworld/overworld_template.tscn" id="1_311in"]
+[ext_resource type="MeshLibrary" uid="uid://bi6q1t7jd4oni" path="res://assets/apple_market_lib.tres" id="2_07x2y"]
+[ext_resource type="PackedScene" uid="uid://b66fr5a452qet" path="res://scenes/characters/Servbot.tscn" id="3_07x2y"]
+[ext_resource type="Script" uid="uid://di1x1um27lwye" path="res://scenes/characters/servbot.gd" id="4_m52ce"]
+
+[sub_resource type="Environment" id="Environment_0tmil"]
+background_color = Color(1, 1, 1, 1)
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+
+[node name="World" instance=ExtResource("1_311in")]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Megaman" index="3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.77621293, 0)
+
+[node name="GridMap" parent="." index="1"]
+mesh_library = ExtResource("2_07x2y")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(-1, 65535, 0, -65536, 65535, 0, -1, 65534, 0, -65536, 65534, 0, -65536, 65533, 0, -65536, 65532, 0, -1, 65531, 0, -1, 65530, 0, -65536, 65529, 0, -65536, 65528, 0, -1, 65527, 0, -1, 65526, 0, -65536, 65525, 0, -1, 65525, 0, -65536, 65526, 0, -65536, 65527, 0, -1, 65528, 0, -1, 65529, 0, -65536, 65530, 0, -65536, 65531, 0, -1, 65532, 0, -1, 65533, 0, 65534, 65526, 1048577, 65534, 65528, 1048578, 65534, 65530, 1048579, 65534, 65533, 1048580, 65534, 65531, 1048581, 1, 65534, 1441798, 1, 65532, 1441799, 1, 65530, 1441800, 1, 65529, 1441801, 1, 65527, 1441802, 131071, 65524, 11, 131071, 65525, 12, 131071, 65526, 12, 131071, 65527, 12, 131071, 65528, 12, 131071, 65529, 12, 131071, 65530, 12, 131071, 65531, 12, 131071, 65532, 12, 131071, 65533, 12, 131071, 65534, 12, 131071, 65535, 12, 65536, 0, 655371, 65535, 0, 655373, 0, 65524, 13, 65534, 65525, 14, 1, 65525, 14, 1, 65535, 14, 65534, 65535, 14)
+}
+metadata/_editor_floor_ = Vector3(0, 0, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="2"]
+environment = SubResource("Environment_0tmil")
+
+[node name="Servbot" parent="." index="3" instance=ExtResource("3_07x2y")]
+transform = Transform3D(-0.0375883, 0, -0.05905184, 0, 0.07, 0, 0.05905184, 0, -0.0375883, -0.92544377, 0, -1.0872681)
+script = ExtResource("4_m52ce")
