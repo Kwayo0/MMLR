@@ -1,0 +1,21 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://b1kll1kdlt4o1"]
+
+[ext_resource type="Shader" uid="uid://b2rfk5xdwbbha" path="res://src/outline.gdshader" id="1_s0shu"]
+[ext_resource type="Shader" uid="uid://b4mlqo01kltyv" path="res://src/cel-shader-base.gdshader" id="2_uh224"]
+[ext_resource type="Texture2D" uid="uid://cqtmthkgnfn6b" path="res://assets/models/Servbot/ServBot Body Placeholder.png" id="3_shtwf"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_equho"]
+render_priority = 0
+shader = ExtResource("1_s0shu")
+
+[resource]
+render_priority = 0
+next_pass = SubResource("ShaderMaterial_equho")
+shader = ExtResource("2_uh224")
+shader_parameter/alpha_cutoff = 1.0
+shader_parameter/color = Color(0.75, 0.75, 0.75, 1)
+shader_parameter/base_texture = ExtResource("3_shtwf")
+shader_parameter/specular = Color(0, 0, 0, 0.5411765)
+shader_parameter/fresnel = Color(0.19, 0.19, 0.19, 0.3019608)
+shader_parameter/uv_scale = Vector2(1, 1)
+shader_parameter/uv_offset = Vector2(0, 0)

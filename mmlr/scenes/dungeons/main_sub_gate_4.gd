@@ -10,7 +10,7 @@ func _ready() -> void:
 
 
 func _on_warp_zone_body_entered(_body: Node3D) -> void:
-	var six = load("res://scenes/main_sub_gate_6.tscn").instantiate()
+	var six = load("res://scenes/dungeons/main_sub_gate_6.tscn").instantiate()
 	main.add_child(six)
 	six.get_node("Megaman").position = Vector3(-.5,-1,-1.5)
 	six.get_node("Megaman").get_node("Head").rotate_y(PI/2)
@@ -18,14 +18,10 @@ func _on_warp_zone_body_entered(_body: Node3D) -> void:
 	queue_free()
 
 
-"""func _on_warp_zone_2_body_entered(body: Node3D) -> void:
-	main.add_child(four)
-	four.get_node("Megaman").position = Vector3(14.5,2,-4.5)
-	queue_free()"""
 
 
 func _on_w2_body_entered(_body: Node3D) -> void:
-	var six = load("res://scenes/main_sub_gate_2.tscn").instantiate()
+	var six = load("res://scenes/dungeons/main_sub_gate_2.tscn").instantiate()
 	main.add_child(six)
 	six.get_node("Megaman").position = Vector3(1,0,-23.5)
 	six.get_node("Megaman").get_node("Head").rotate_y(-PI/2)
@@ -34,7 +30,7 @@ func _on_w2_body_entered(_body: Node3D) -> void:
 
 
 func _on_w_3_body_entered(_body: Node3D) -> void:
-	var six = load("res://scenes/main_sub_gate_3.tscn").instantiate()
+	var six = load("res://scenes/dungeons/main_sub_gate_3.tscn").instantiate()
 	main.add_child(six)
 	six.get_node("Megaman").position = Vector3(1.5,-1,-29)
 	six.get_node("Megaman").get_node("Head").rotate_y(PI)

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cg1xlqh5e1dy8"
+path="res://.godot/imported/Gramps_Wall.obj-36670eff9ecd7196ae13aa093022ffaa.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Gramps_Wall.obj-36670eff9ecd7196ae13aa093022ffaa.mesh"]
+
+source_file="res://assets/objs/flutter/Gramps_Wall.obj"
+dest_files=["res://.godot/imported/Gramps_Wall.obj-36670eff9ecd7196ae13aa093022ffaa.mesh", "res://.godot/imported/Gramps_Wall.obj-36670eff9ecd7196ae13aa093022ffaa.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

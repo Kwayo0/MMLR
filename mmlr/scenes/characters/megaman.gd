@@ -12,7 +12,7 @@ var zoom = 0
 const mouse_sensitivity = 0.1
 var movement_speed = 2
 const gravity = 10
-const jump_velocity = 3*1.75
+const jump_velocity = 3*1.5
 const rotspeed = .2
 
 func _ready() -> void:
@@ -46,7 +46,7 @@ func _input(event: InputEvent) -> void:
 			camera.rotate_x(deg_to_rad(-delta_x))
 			camera_x_rotation += delta_x
 		head.position.y = camera_x_rotation/200 + .25
-		camera.fov = max(75,75+camera_x_rotation) + zoom
+		camera.fov = max(75,75+camera_x_rotation/10) + zoom
 
 func _physics_process(delta: float) -> void:
 	if paused:

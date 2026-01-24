@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cuxbhc0wvipha"
+path="res://.godot/imported/3x4_2_upper.obj-7ccb711cb190429264bb522a3d66770e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/3x4_2_upper.obj-7ccb711cb190429264bb522a3d66770e.mesh"]
+
+source_file="res://assets/objs/dungeons/3x4_2_upper.obj"
+dest_files=["res://.godot/imported/3x4_2_upper.obj-7ccb711cb190429264bb522a3d66770e.mesh", "res://.godot/imported/3x4_2_upper.obj-7ccb711cb190429264bb522a3d66770e.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -2,7 +2,7 @@ extends Node3D
 
 @onready var player = $Megaman
 @onready var main = get_parent()
-@onready var two = preload("res://scenes/main_sub_gate_2.tscn").instantiate()
+@onready var two = preload("res://scenes/dungeons/main_sub_gate_2.tscn").instantiate()
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

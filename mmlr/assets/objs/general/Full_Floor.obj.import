@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://30mol0qcvl8w"
+path="res://.godot/imported/Full_Floor.obj-8af8df54f127126d585b3da8883a6aed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Full_Floor.obj-8af8df54f127126d585b3da8883a6aed.mesh"]
+
+source_file="res://assets/objs/general/Full_Floor.obj"
+dest_files=["res://.godot/imported/Full_Floor.obj-8af8df54f127126d585b3da8883a6aed.mesh", "res://.godot/imported/Full_Floor.obj-8af8df54f127126d585b3da8883a6aed.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

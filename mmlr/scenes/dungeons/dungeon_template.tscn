@@ -28,3 +28,5 @@ environment = SubResource("Environment_oqwcg")
 [node name="Enemies" type="Node3D" parent="."]
 
 [node name="Objects" type="Node3D" parent="."]
+
+[node name="Surfaces" type="Node3D" parent="."]

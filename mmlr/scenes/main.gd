@@ -3,7 +3,7 @@ extends Node3D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	add_child(load("res://scenes/main_sub_gate_1.tscn").instantiate())
+	add_child(load("res://scenes/main_menu3d.tscn").instantiate())
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

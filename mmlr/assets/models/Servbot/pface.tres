@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dkt0f8ohylcti"]
+
+[ext_resource type="Texture2D" uid="uid://cys5dbyaugq10" path="res://assets/models/Servbot/Servbot Face Placeholder.png" id="1_i8umk"]
+
+[resource]
+transparency = 2
+alpha_scissor_threshold = 0.01
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("1_i8umk")

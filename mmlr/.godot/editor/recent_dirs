@@ -1,4 +1,11 @@
 res://assets
-res://assets/models
-res://
 res://scenes
+res://scenes/characters
+res://assets/models/Servbot
+res://scenes/dungeons
+res://src
+res://assets/textures/shaders
+res://assets/models
+res://assets/textures
+res://scenes/overworld
+res://
