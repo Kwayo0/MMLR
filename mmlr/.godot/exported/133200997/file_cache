@@ -17,7 +17,7 @@ res://scenes/characters/Servbot.tscn::a43498a5c7d40eddcc09763fa2b11baf::17691340
 res://scenes/dungeons/dungeon_template.tscn::9bd5e749b958c2f94ad7c9468b1bde9e::1769256954::res://.godot/exported/133200997/export-4736caf6974fa6dc2e6cfd4d9e5834dc-dungeon_template.scn
 res://scenes/dungeons/introductory_dungeon.tscn::0341ebd75999275f6d5584b6f7116e25::1769120737::res://.godot/exported/133200997/export-1e2723951b4010b43f8a09d677f09c22-introductory_dungeon.scn
 res://scenes/dungeons/main_sub_gate_1.tscn::1ae760c97a8e5df3fe5d0b0623e85856::1769264722::res://.godot/exported/133200997/export-3a4cc773201af06d887fa8bbc741c43c-main_sub_gate_1.scn
-res://scenes/dungeons/main_sub_gate_2.tscn::9dea297de13205428512bfde1d111f58::1769264941::res://.godot/exported/133200997/export-bc387a4cb533ed516cdcf38e46aa6898-main_sub_gate_2.scn
+res://scenes/dungeons/main_sub_gate_2.tscn::9dea297de13205428512bfde1d111f58::1769265091::res://.godot/exported/133200997/export-bc387a4cb533ed516cdcf38e46aa6898-main_sub_gate_2.scn
 res://scenes/dungeons/main_sub_gate_3.tscn::5ed4b2e93dc6d2ae20566364ab643c4e::1769260523::res://.godot/exported/133200997/export-0d8966710b5ca2505519507befb25ee9-main_sub_gate_3.scn
 res://scenes/dungeons/main_sub_gate_4.tscn::e894175d60d8c024b814fc14d26663e9::1769259314::res://.godot/exported/133200997/export-80e8635c8a0f669ebed9bcaa38773242-main_sub_gate_4.scn
 res://scenes/dungeons/main_sub_gate_5.tscn::f1a77611a16b16904e82501dcb399edc::1769261081::res://.godot/exported/133200997/export-fea8ad19acbcf4c5009027acbbd3e209-main_sub_gate_5.scn
