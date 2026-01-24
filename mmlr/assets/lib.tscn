@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=3 uid="uid://cj07d3dlnysau"]
+[gd_scene load_steps=40 format=3 uid="uid://cj07d3dlnysau"]
 
 [ext_resource type="ArrayMesh" uid="uid://5kemysl13brb" path="res://assets/objs/dungeons/floor.obj" id="1_q7noq"]
 [ext_resource type="Texture2D" uid="uid://imbk2aru5du6" path="res://assets/textures/wall maps/WallNormal.png" id="3_qxkid"]
@@ -18,6 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://br75cwapwigcc" path="res://assets/textures/op_wall.png" id="17_on7sk"]
 [ext_resource type="ArrayMesh" uid="uid://cxgc16r1ilgfl" path="res://assets/objs/dungeons/ThinRamp.obj" id="18_q6o2c"]
 [ext_resource type="ArrayMesh" uid="uid://y1oyjgfx1kqu" path="res://assets/objs/dungeons/3x4.obj" id="19_lkjq8"]
+[ext_resource type="ArrayMesh" uid="uid://dui3ybu0edfmj" path="res://assets/objs/dungeons/diagonal.obj" id="19_ymn03"]
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_mtvej"]
 data = PackedVector3Array(-0.5, 0.375, -0.5, 0.5, 0.375, -0.5, -0.5, 0.375, 0.5, -0.5, 0.375, 0.5, 0.5, 0.375, -0.5, 0.5, 0.375, 0.5)
@@ -83,6 +84,9 @@ data = PackedVector3Array(-1.5, 0.125, 0.25, -1.5, -0.375, 0.25, 1.5, 0.875, 0.2
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_q6o2c"]
 data = PackedVector3Array(0.5, 0.375, 0.5, 0.5, -0.375, 0.5, -0.5, 0.375, 0.5, -0.5, 0.375, 0.5, 0.5, -0.375, 0.5, -0.5, -0.375, 0.5)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_l4txa"]
+data = PackedVector3Array(0.5, 0.375, -0.5, 0.5, -0.375, -0.5, -0.5, 0.375, 0.5, -0.5, 0.375, 0.5, 0.5, -0.375, -0.5, -0.5, -0.375, 0.5)
 
 [node name="Node3D" type="Node3D"]
 
@@ -241,3 +245,12 @@ mesh = ExtResource("19_lkjq8")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="2_3x4/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_q6o2c")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5, 0.5, 0.5)
+mesh = ExtResource("19_ymn03")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_l4txa")

@@ -8,11 +8,12 @@ var camera_x_rotation = 0
 var paused = false
 var pos = Vector3()
 var zoom = 0
+var v_at_jump = Vector2(0,0)
 
 const mouse_sensitivity = 0.1
-var movement_speed = 2
-const gravity = 10
-const jump_velocity = 3*1.5
+var movement_speed = 1.75
+const gravity = 3.5
+const jump_velocity = 1.7*1.5
 const rotspeed = .2
 
 func _ready() -> void:
@@ -58,12 +59,14 @@ func _physics_process(delta: float) -> void:
 	# Handle jump.
 	if Input.is_action_just_pressed("jump") and """is_on_floor()""":
 		velocity.y = jump_velocity
+		v_at_jump = Vector2(0,0)
 	
 	var direction = Vector3()
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var pressed_direction = false
 	var offset = 0
+	
 	if Input.is_action_pressed("ui_down"):
 		direction += head.basis.z
 		pressed_direction = true
@@ -82,14 +85,26 @@ func _physics_process(delta: float) -> void:
 	if pressed_direction:
 		rotate_megaman(offset)
 	
-	velocity.z = direction.z * movement_speed
-	velocity.x = direction.x * movement_speed
+	if !is_on_floor():
+		var norm = Vector2(velocity.x,velocity.z)
+		velocity.z += direction.z * movement_speed / 40
+		velocity.x += direction.x * movement_speed / 40
+		if norm.length() > movement_speed:
+			norm = norm.normalized() * movement_speed
+			velocity.z = norm.y
+			velocity.x = norm.x
+		
+	else:
+		velocity.z = direction.z * movement_speed
+		velocity.x = direction.x * movement_speed
 	pos = position
 	move_and_slide()
 	
 	
 
 func rotate_megaman(offset = 0.0):
+	if !is_on_floor():
+		return
 	if offset:
 		megaman.rotation.y = head.rotation.y+offset
 		return

@@ -11,7 +11,7 @@ func _ready() -> void:
 func _on_warp_zone_body_entered(_body: Node3D) -> void:
 	var three = preload("res://scenes/dungeons/main_sub_gate_3.tscn").instantiate()
 	main.add_child(three)
-	three.get_node("Megaman").position = Vector3(-7,-1.5,-16.5)
+	three.get_node("Megaman").position = Vector3(-6,-1.5,-16.5)
 	three.get_node("Megaman").get_node("Head").rotate_y(-PI/2)
 	three.get_node("Megaman").get_node("Megaman").rotate_y(-PI/2)
 	queue_free()
