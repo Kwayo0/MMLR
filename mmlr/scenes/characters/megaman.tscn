@@ -4,16 +4,16 @@
 [ext_resource type="ArrayMesh" uid="uid://bmgf018ey8lcd" path="res://assets/models/Megaman/Megaman.obj" id="2_cp366"]
 [ext_resource type="Material" uid="uid://86v3e20as1nt" path="res://assets/models/Megaman/megaman.tres" id="2_g3sek"]
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_g3sek"]
-height = 0.3083374
-radius = 0.033203125
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_g3sek"]
+radius = 0.040039063
+height = 0.3067932
 
 [node name="Megaman" type="CharacterBody3D"]
 script = ExtResource("1_dpkyf")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15300214, 0)
-shape = SubResource("CylinderShape3D_g3sek")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15323102, 0)
+shape = SubResource("CapsuleShape3D_g3sek")
 
 [node name="Megaman" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.005, 0, 0, 0, 0.005, 0, 0, 0, 0.005, 0, 0.18228465, 0)

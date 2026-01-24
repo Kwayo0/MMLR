@@ -6,6 +6,7 @@
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_xvgsr"]
 
 [sub_resource type="Environment" id="Environment_oqwcg"]
+background_mode = 1
 ambient_light_source = 2
 ambient_light_color = Color(1, 1, 1, 1)
 ambient_light_energy = 0.5
@@ -18,6 +19,8 @@ cell_size = Vector3(1, 1, 1)
 metadata/_editor_floor_ = Vector3(0, -2, 0)
 
 [node name="Megaman" parent="." instance=ExtResource("2_4juoy")]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Megaman"]
 
 [node name="LightmapGI" type="LightmapGI" parent="."]
 camera_attributes = SubResource("CameraAttributesPractical_xvgsr")

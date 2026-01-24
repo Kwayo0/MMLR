@@ -72,7 +72,11 @@ func _on_item_list_item_activated(index: int) -> void:
 	match index:
 		0: #New Game
 			$"Popup Menu".visible = true
+			$"Popup Menu/ItemList".grab_focus()
+			$NewContOpt.visible = false
 		1: #Continue
 			$"Popup Menu".visible = true
+			$"Popup Menu/ItemList".grab_focus()
+			$NewContOpt.visible = false
 		
 		
