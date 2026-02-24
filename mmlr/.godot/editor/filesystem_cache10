@@ -1,21 +1,27 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769258261
-export_presets.cfg::TextFile::-1::1769258261::0::1::::<><><>0<>0<><>::
+::res://::1771813236
+export_presets.cfg::TextFile::-1::1769265441::0::1::::<><><>0<>0<><>::
+horokko.gd::GDScript::4560748940933317752::1771737688::0::1::::<>CharacterBody3D<><>0<>0<><>::
+horokko_bomb.gd::GDScript::8291178110933955597::1771737688::0::1::::<>CharacterBody3D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::2987160973176270013::1767926847::1767926856::1::::<><><>0<>0<>1925146cce660ad1fe74f4bf11cded8b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://assets/::1769250833
-apple_market_lib.tres::MeshLibrary::3012946093490482226::1769231407::0::1::::<><><>0<>0<><>::uid://cu3rx8blhv1iw::::res://assets/textures/apple market/Apple Market Carpet.png<>uid://eu1bue45ovaf::::res://assets/textures/apple market/Apple Market Carpet Normal.png
+::res://assets/::1771735706
+apple_market_lib.tres::MeshLibrary::3012946093490482226::1771323241::0::1::::<><><>0<>0<><>::uid://cu3rx8blhv1iw::::res://assets/textures/apple market/Apple Market Carpet.png<>uid://eu1bue45ovaf::::res://assets/textures/apple market/Apple Market Carpet Normal.png
 apple_market_lib.tscn::PackedScene::5602602662369605165::1769231394::0::1::::<><><>0<>0<><>::uid://88hvoxevhgep::::res://assets/objs/Apple Market/book_store.obj<>uid://cu3rx8blhv1iw::::res://assets/textures/apple market/Apple Market Carpet.png<>uid://reg62fjup6ip::::res://assets/objs/Apple Market/Hipbone.obj<>uid://eu1bue45ovaf::::res://assets/textures/apple market/Apple Market Carpet Normal.png<>uid://cjcqu3kj4cpg2::::res://assets/objs/Apple Market/Sharkskin_Bakery.obj<>uid://cdtmkb11ohqgw::::res://assets/objs/Apple Market/Tailor_Chinos.obj<>uid://bugk54ru2l8fr::::res://assets/objs/Apple Market/Bronte_Vegetables.obj<>uid://chlgglv80n1cp::::res://assets/objs/Apple Market/High_Necked_Records.obj<>uid://ebvqywl07iu1::::res://assets/objs/Apple Market/Staple_Electronics.obj<>uid://4vos8e2k1ly1::::res://assets/objs/Apple Market/Akbar_Toys.obj<>uid://x5iomyx0gmac::::res://assets/objs/Apple Market/Jetlag_Bakery.obj<>uid://dcgi3umqkn12l::::res://assets/objs/Apple Market/Jump_Shop.obj<>uid://c3n6g2n40ns03::::res://assets/objs/Apple Market/Roof_End.obj<>uid://bu52er8aodg56::::res://assets/objs/Apple Market/Roof.obj<>uid://krv8ausvv685::::res://assets/objs/Apple Market/End_Wall.obj
+city_lib.tres::MeshLibrary::7465997007136961019::1771323240::0::1::::<><><>0<>0<><>::
+city_lib.tscn::PackedScene::3106735523337742896::1769618282::0::1::::<><><>0<>0<><>::uid://30mol0qcvl8w::::res://assets/objs/general/Full_Floor.obj
 flutter_lib.tres::MeshLibrary::2204667748837592211::1769230404::0::1::::<><><>0<>0<><>::
 flutter_lib.tscn::PackedScene::7984387818613301046::1768968094::0::1::::<><><>0<>0<><>::uid://30mol0qcvl8w::::res://assets/objs/general/Full_Floor.obj<>uid://bopxvdaiaplqj::::res://assets/objs/general/Full_Half.obj<>uid://bywqqtxqsln7q::::res://assets/objs/general/Half_Half.obj<>uid://cbmn3mk2vwx7y::::res://assets/objs/general/Full_3x4.obj<>uid://skb7s5iuehou::::res://assets/objs/general/Half_3x4.obj<>uid://ux6o3cyhjbwj::::res://assets/objs/general/Half_3x4_alt.obj<>uid://4oqo0c0vwksm::::res://assets/objs/general/Full_3x4_centered.obj<>uid://dw1bcqgkaam7f::::res://assets/objs/general/Full_3x4_Half_alt.obj<>uid://beyfsuobwnj26::::res://assets/objs/general/Full_3x4_Half.obj
-lib.tres::MeshLibrary::4567940259012447234::1769250833::0::1::::<><><>0<>0<><>::uid://imbk2aru5du6::::res://assets/textures/wall maps/WallNormal.png<>uid://jatrm0uukoq7::::res://assets/textures/wall maps/WallAO.png<>uid://br75cwapwigcc::::res://assets/textures/op_wall.png
-lib.tscn::PackedScene::5458100180936572940::1769250833::0::1::::<><><>0<>0<><>::uid://5kemysl13brb::::res://assets/objs/dungeons/floor.obj<>uid://imbk2aru5du6::::res://assets/textures/wall maps/WallNormal.png<>uid://cj7c2k8v7wtrn::::res://assets/objs/dungeons/3x4_2.obj<>uid://jatrm0uukoq7::::res://assets/textures/wall maps/WallAO.png<>uid://c4nqn0gvv5t7x::::res://assets/objs/dungeons/Ramp.obj<>uid://kvkfhjdsq1e1::::res://assets/objs/dungeons/HallEntrance.obj<>uid://cfbv4l7mpewg4::::res://assets/objs/dungeons/ThinHallway.obj<>uid://bkwyb3d8t05s6::::res://assets/objs/dungeons/3x4_3.obj<>uid://cdkl308o1iis3::::res://assets/objs/dungeons/3x4_4.obj<>uid://1kxwi5nq7sgi::::res://assets/objs/dungeons/diagonal_thin.obj<>uid://b7t7eoyq8k1hf::::res://assets/objs/dungeons/3x4_floor.obj<>uid://nyjynwa6xpbl::::res://assets/objs/dungeons/3x4_2_floor.obj<>uid://klk2wiexx8sk::::res://assets/objs/dungeons/corner.obj<>uid://cfjmwb8bf13mw::::res://assets/objs/dungeons/HalfBack.obj<>uid://dg4vwlhmjvy38::::res://assets/objs/dungeons/Half.obj<>uid://br75cwapwigcc::::res://assets/textures/op_wall.png<>uid://cxgc16r1ilgfl::::res://assets/objs/dungeons/ThinRamp.obj<>uid://y1oyjgfx1kqu::::res://assets/objs/dungeons/3x4.obj
+lib.tres::MeshLibrary::4567940259012447234::1771735706::0::1::::<><><>0<>0<><>::uid://imbk2aru5du6::::res://assets/textures/wall maps/WallNormal.png<>uid://jatrm0uukoq7::::res://assets/textures/wall maps/WallAO.png<>uid://br75cwapwigcc::::res://assets/textures/op_wall.png
+lib.tscn::PackedScene::5458100180936572940::1769259672::0::1::::<><><>0<>0<><>::uid://5kemysl13brb::::res://assets/objs/dungeons/floor.obj<>uid://imbk2aru5du6::::res://assets/textures/wall maps/WallNormal.png<>uid://cj7c2k8v7wtrn::::res://assets/objs/dungeons/3x4_2.obj<>uid://jatrm0uukoq7::::res://assets/textures/wall maps/WallAO.png<>uid://c4nqn0gvv5t7x::::res://assets/objs/dungeons/Ramp.obj<>uid://kvkfhjdsq1e1::::res://assets/objs/dungeons/HallEntrance.obj<>uid://cfbv4l7mpewg4::::res://assets/objs/dungeons/ThinHallway.obj<>uid://bkwyb3d8t05s6::::res://assets/objs/dungeons/3x4_3.obj<>uid://cdkl308o1iis3::::res://assets/objs/dungeons/3x4_4.obj<>uid://1kxwi5nq7sgi::::res://assets/objs/dungeons/diagonal_thin.obj<>uid://b7t7eoyq8k1hf::::res://assets/objs/dungeons/3x4_floor.obj<>uid://nyjynwa6xpbl::::res://assets/objs/dungeons/3x4_2_floor.obj<>uid://klk2wiexx8sk::::res://assets/objs/dungeons/corner.obj<>uid://cfjmwb8bf13mw::::res://assets/objs/dungeons/HalfBack.obj<>uid://dg4vwlhmjvy38::::res://assets/objs/dungeons/Half.obj<>uid://br75cwapwigcc::::res://assets/textures/op_wall.png<>uid://cxgc16r1ilgfl::::res://assets/objs/dungeons/ThinRamp.obj<>uid://y1oyjgfx1kqu::::res://assets/objs/dungeons/3x4.obj<>uid://dui3ybu0edfmj::::res://assets/objs/dungeons/diagonal.obj
 Megaman.dae::::-1::1767931949::1767931974::0::::<><><>0<>0<>5a1604cdc8670636e44d3e39aad3685a<>::
+overworld_lib.tres::MeshLibrary::38562541909132833::1771323241::0::1::::<><><>0<>0<><>::uid://n0haqxqdgvor::::res://assets/textures/wall_floor.png
+overworld_lib.tscn::PackedScene::8459222164814316639::1771323325::0::1::::<><><>0<>0<><>::uid://n0haqxqdgvor::::res://assets/textures/wall_floor.png<>uid://by3lq31if8lva::::res://assets/objs/general/hill.obj<>uid://dwolt5tyyon2w::::res://assets/objs/general/hill_corner.obj
 ::res://assets/models/::1769059179
-::res://assets/models/Megaman/::1769230403
+::res://assets/models/Megaman/::1771735706
 Megaman.obj::Mesh::3241422720486076091::1769127837::1769127840::1::::<><><>0<>0<>ebc6451805884b0ab03448595e849a84<>res://.godot/imported/Megaman.obj-a7b89840e9606fcc67ab94197df5f249.mesh<*>res://.godot/imported/Megaman.obj-a7b89840e9606fcc67ab94197df5f249.mesh::
 Megaman.png::CompressedTexture2D::2591013310742212856::1767931949::1769059253::1::::<><><>0<>0<>4846764983a530f9528cf853eb3c0d95<>res://.godot/imported/Megaman.png-bc7bc2647b337d9abe47a220ebe9533e.ctex::
-megaman.tres::ShaderMaterial::2381552862448097957::1769230403::0::1::::<><><>0<>0<><>::uid://b4mlqo01kltyv::::res://src/cel-shader-base.gdshader<>uid://bc6du07aro4hw::::res://assets/models/Megaman/Megaman.png
-::res://assets/models/Servbot/::1769230403
+megaman.tres::ShaderMaterial::2381552862448097957::1771735706::0::1::::<><><>0<>0<><>::uid://b4mlqo01kltyv::::res://src/cel-shader-base.gdshader<>uid://bc6du07aro4hw::::res://assets/models/Megaman/Megaman.png
+::res://assets/models/Servbot/::1771735706
 material_0.tres::StandardMaterial3D::2344985247763781621::1769064965::0::1::::<><><>0<>0<><>::uid://4bd05d05yj5y::::res://assets/models/Servbot/Servbot_0.png
 material_1.tres::StandardMaterial3D::8510439545007657703::1769065437::0::1::::<><><>0<>0<><>::uid://biw80ngjnscbx::::res://assets/models/Servbot/Servbot_1.png
 pface.tres::StandardMaterial3D::7901902273823820750::1769065437::0::1::::<><><>0<>0<><>::uid://cys5dbyaugq10::::res://assets/models/Servbot/Servbot Face Placeholder.png
@@ -27,7 +33,7 @@ Servbot Face Placeholder.png::CompressedTexture2D::6496359371062401981::17688647
 Servbot Face.png::CompressedTexture2D::8752475776041865900::1768862976::1769059179::1::::<><><>0<>0<>4ef6903185ae3b5326614baa2e48c71e<>res://.godot/imported/Servbot Face.png-1e14501122e266de80b43ade82a31bff.ctex::
 servbot.gd::GDScript::4545520051200248844::1769230330::0::1::::<>Node3D<><>0<>0<><>::
 Servbot.gltf::PackedScene::7785173009967957396::1768864905::1769134499::1::::<><><>0<>0<>4f032557b2c74f3214a7b46f34757ef5<>res://.godot/imported/Servbot.gltf-268d46a79e9e8856c601a81897bcdaaa.scn::uid://b1kll1kdlt4o1::::res://assets/models/Servbot/servbot.tres<>uid://dkt0f8ohylcti::::res://assets/models/Servbot/pface.tres
-servbot.tres::ShaderMaterial::4232663307682860434::1769230403::0::1::::<><><>0<>0<><>::uid://b2rfk5xdwbbha::::res://src/outline.gdshader<>uid://b4mlqo01kltyv::::res://src/cel-shader-base.gdshader<>uid://cqtmthkgnfn6b::::res://assets/models/Servbot/ServBot Body Placeholder.png
+servbot.tres::ShaderMaterial::4232663307682860434::1771735706::0::1::::<><><>0<>0<><>::uid://b2rfk5xdwbbha::::res://src/outline.gdshader<>uid://b4mlqo01kltyv::::res://src/cel-shader-base.gdshader<>uid://cqtmthkgnfn6b::::res://assets/models/Servbot/ServBot Body Placeholder.png
 Servbot_0.png::CompressedTexture2D::2037769220594768696::1768961357::1769059179::1::::<><><>0<>0<>c785a65822ebfbdde33d8392c9aaae23<>res://.godot/imported/Servbot_0.png-c71757a7469ec0cc91bdcbf916e7f900.s3tc.ctex::
 Servbot_1.png::CompressedTexture2D::2995396741494970305::1769064952::1769064952::1::::<><><>0<>0<>5d5cec505584403a11e70ea3a42997d9<>res://.godot/imported/Servbot_1.png-e78e9fd0e55efd1b8b841108f4f58409.s3tc.ctex::
 ::res://assets/objs/::1769059215
@@ -52,7 +58,7 @@ Roof_End.obj::Mesh::6766860281157555342::1768858754::1768862850::1::::<><><>0<>0
 Sharkskin_Bakery.obj::Mesh::5409678389948591395::1768799535::1768862850::1::::<><><>0<>0<>60671da3349e4568150883d87f3f59c5<>res://.godot/imported/Sharkskin_Bakery.obj-202b5d1ad40fa81e848d701d20558c46.mesh<*>res://.godot/imported/Sharkskin_Bakery.obj-202b5d1ad40fa81e848d701d20558c46.mesh::
 Staple_Electronics.obj::Mesh::284124676937329746::1768854951::1768862850::1::::<><><>0<>0<>4c7a034dda464c437f02bf1db590a568<>res://.godot/imported/Staple_Electronics.obj-2b7777390526a0f72bb54b06ae1b2499.mesh<*>res://.godot/imported/Staple_Electronics.obj-2b7777390526a0f72bb54b06ae1b2499.mesh::
 Tailor_Chinos.obj::Mesh::5023377631368270074::1768854784::1768862850::1::::<><><>0<>0<>42016afefc1498895fc7e6dab6b1fe41<>res://.godot/imported/Tailor_Chinos.obj-90bc9f23727b8a677607f3fe4aa0ce65.mesh<*>res://.godot/imported/Tailor_Chinos.obj-90bc9f23727b8a677607f3fe4aa0ce65.mesh::
-::res://assets/objs/dungeons/::1769259647
+::res://assets/objs/dungeons/::1769259666
 3x4.obj::Mesh::1739099448108704060::1769246594::1769246598::1::::<><><>0<>0<>e7583f243cbd8f5b15fac635615ad486<>res://.godot/imported/3x4.obj-1cb13bd184e692bc5942494e6025e997.mesh<*>res://.godot/imported/3x4.obj-1cb13bd184e692bc5942494e6025e997.mesh::
 3x4_2.obj::Mesh::5470771275889212587::1769246663::1769246740::1::::<><><>0<>0<>fe34155bf2246b29679bfc88445d9381<>res://.godot/imported/3x4_2.obj-94d5dd1653adeb00ac29acfbe3a794cd.mesh<*>res://.godot/imported/3x4_2.obj-94d5dd1653adeb00ac29acfbe3a794cd.mesh::
 3x4_2_floor.obj::Mesh::962590062212068113::1769247785::1769247786::1::::<><><>0<>0<>e77dd3915775506508f25bb1d6ab57f1<>res://.godot/imported/3x4_2_floor.obj-425c339cc9a14f15734356a3de4f0801.mesh<*>res://.godot/imported/3x4_2_floor.obj-425c339cc9a14f15734356a3de4f0801.mesh::
@@ -81,7 +87,7 @@ ThinRamp.obj::Mesh::6399740557890346533::1769250813::1769250817::1::::<><><>0<>0
 Gramps_Wall.obj::Mesh::5249065237943200621::1768969121::1768969243::1::::<><><>0<>0<>449368ba9f4d11bb430605d2dbe8eb71<>res://.godot/imported/Gramps_Wall.obj-36670eff9ecd7196ae13aa093022ffaa.mesh<*>res://.godot/imported/Gramps_Wall.obj-36670eff9ecd7196ae13aa093022ffaa.mesh::
 Rock_Wall.obj::Mesh::6925673359385838125::1769075031::1769075033::1::::<><><>0<>0<>b7740b276c6b40d6995ef347adf4390f<>res://.godot/imported/Rock_Wall.obj-42a2deb94c750069d226e8de4836a9cc.mesh<*>res://.godot/imported/Rock_Wall.obj-42a2deb94c750069d226e8de4836a9cc.mesh::
 Roll_Wall.obj::Mesh::597656838248178277::1769075076::1769075078::1::::<><><>0<>0<>0c7e8373bd7f0bddcb49c6756605f983<>res://.godot/imported/Roll_Wall.obj-695944566381e2d847b4fc1cde829396.mesh<*>res://.godot/imported/Roll_Wall.obj-695944566381e2d847b4fc1cde829396.mesh::
-::res://assets/objs/general/::1768967511
+::res://assets/objs/general/::1771285949
 Full_3x4.obj::Mesh::4868642714192210708::1768962597::1768963197::1::::<><><>0<>0<>7ca3c5e3bfb0370fe9ef3d1b3d14a927<>res://.godot/imported/Full_3x4.obj-c4ebd5ff221dbf8a06d654c88314892b.mesh<*>res://.godot/imported/Full_3x4.obj-c4ebd5ff221dbf8a06d654c88314892b.mesh::
 Full_3x4_centered.obj::Mesh::2065375544396895928::1768967319::1768967322::1::::<><><>0<>0<>03c29630cf8dd2f1bed3f625e00cc2b1<>res://.godot/imported/Full_3x4_centered.obj-fc97381147a1e4283e30b38117fd30a3.mesh<*>res://.godot/imported/Full_3x4_centered.obj-fc97381147a1e4283e30b38117fd30a3.mesh::
 Full_3x4_Half.obj::Mesh::2717057925766407489::1768967476::1768967511::1::::<><><>0<>0<>f1b131d654bc5927c550d2ae5a64d934<>res://.godot/imported/Full_3x4_Half.obj-d11df6499037485ae0031fe3d336360c.mesh<*>res://.godot/imported/Full_3x4_Half.obj-d11df6499037485ae0031fe3d336360c.mesh::
@@ -95,22 +101,25 @@ Half_3x4_alt.obj::Mesh::1453166263838024497::1768967123::1768967125::1::::<><><>
 Half_Half.obj::Mesh::4117370320407558716::1768963149::1768963197::1::::<><><>0<>0<>02c9822eabc0c6d0753b35d9c09ebc47<>res://.godot/imported/Half_Half.obj-04d083b556ff2cab74e93c5a2476aea5.mesh<*>res://.godot/imported/Half_Half.obj-04d083b556ff2cab74e93c5a2476aea5.mesh::
 Half_Quarter.obj::Mesh::9027791203732758240::1768963173::1768963197::1::::<><><>0<>0<>7f1bb22e38772732152deb5cfe9c05ae<>res://.godot/imported/Half_Quarter.obj-3cea6a174a0afb7403559c0d4f1b0862.mesh<*>res://.godot/imported/Half_Quarter.obj-3cea6a174a0afb7403559c0d4f1b0862.mesh::
 Half_Wall.obj::Mesh::1479040527246073479::1768962524::1768962556::1::::<><><>0<>0<>a805dd586e4c10e31159ca252efe7432<>res://.godot/imported/Half_Wall.obj-cec54b08c83f35cbe38f513306802c9a.mesh<*>res://.godot/imported/Half_Wall.obj-cec54b08c83f35cbe38f513306802c9a.mesh::
+hill.obj::Mesh::4129453478932655822::1771285771::1771285774::1::::<><><>0<>0<>a1625ca9dbc60556205ceb4ed23a69ac<>res://.godot/imported/hill.obj-1a519a1ef318d4ea5930615e26494c1b.mesh<*>res://.godot/imported/hill.obj-1a519a1ef318d4ea5930615e26494c1b.mesh::
+hill_corner.obj::Mesh::8733021322852353296::1771285948::1771285949::1::::<><><>0<>0<>35329d471112bbf252fb4a596a36abc9<>res://.godot/imported/hill_corner.obj-347a9bb17c157f1db2c4fdee5c74c1b6.mesh<*>res://.godot/imported/hill_corner.obj-347a9bb17c157f1db2c4fdee5c74c1b6.mesh::
 Quarter_3x4.obj::Mesh::250299823912997529::1768962631::1768963197::1::::<><><>0<>0<>f940f9025a2d10d8e9b75261022324c2<>res://.godot/imported/Quarter_3x4.obj-ed26adadc7bd27fc0ce8ec4ab446789a.mesh<*>res://.godot/imported/Quarter_3x4.obj-ed26adadc7bd27fc0ce8ec4ab446789a.mesh::
 Quarter_Quarter.obj::Mesh::2827093554960445407::1768963193::1768963197::1::::<><><>0<>0<>143d734f364a3168283916a521a6b66a<>res://.godot/imported/Quarter_Quarter.obj-bebfd8a3ebb347752129a89dccd296e7.mesh<*>res://.godot/imported/Quarter_Quarter.obj-bebfd8a3ebb347752129a89dccd296e7.mesh::
 Quarter_Wall.obj::Mesh::1967507793550329134::1768962550::1768962553::1::::<><><>0<>0<>77867ac33af0d77d810a69c2b3d37e32<>res://.godot/imported/Quarter_Wall.obj-5d4e21383a7d1ef8e640232f0ad2c198.mesh<*>res://.godot/imported/Quarter_Wall.obj-5d4e21383a7d1ef8e640232f0ad2c198.mesh::
-::res://assets/textures/::1769137117
+::res://assets/textures/::1771813236
 1wall_base.png::CompressedTexture2D::400674289817241969::1768423752::1768546600::1::::<><><>0<>0<>0ef451023e1ee7b6d9b35ce7af69f047<>res://.godot/imported/1wall_base.png-dad1d2d82d0361ca0772a47461128dbf.s3tc.ctex::
 2wall_base.png::CompressedTexture2D::4465625399360100659::1768423794::1768546600::1::::<><><>0<>0<>413d8310bef4afb913a95370d168bcdb<>res://.godot/imported/2wall_base.png-bc9a1b78388fd4c8d155d9154ba7229b.s3tc.ctex::
 2wall_floor.png::CompressedTexture2D::3430052780887390536::1768428442::1768546600::1::::<><><>0<>0<>67533017df0fd0bffae38ee1abbd8dc8<>res://.godot/imported/2wall_floor.png-2a552b47e2c5162c11df3ded090910bd.s3tc.ctex::
 3wall_base.png::CompressedTexture2D::7888077156877029931::1768423846::1768546600::1::::<><><>0<>0<>b802e953dce1b1d59e50d334a97cf03d<>res://.godot/imported/3wall_base.png-8d2cfb0ad979a7bd5773f1f6b9291d24.s3tc.ctex::
 4wall_base.png::CompressedTexture2D::6824677349417674794::1768423922::1768546600::1::::<><><>0<>0<>9d3fa23f7d18946ef9d7cc99f3899bd9<>res://.godot/imported/4wall_base.png-a7cc1fda3b1fc1cd5b2f402fe37ed578.s3tc.ctex::
 Floor Base.png::CompressedTexture2D::281760136881577694::1768265805::1768546600::1::::<><><>0<>0<>8e3fcd661825794235ac26cd0d285b6e<>res://.godot/imported/Floor Base.png-d69a38a25aa9353fc34ad652cd9dc824.s3tc.ctex::
+horokko_ph.png::CompressedTexture2D::4936078664174126000::1771326208::1771326227::1::::<><><>0<>0<>c42d70c062a1004e8f99a9a4b9b8113a<>res://.godot/imported/horokko_ph.png-859001a960ca36ae262286c9d2774ae3.s3tc.ctex::
 op_wall.png::CompressedTexture2D::3647517351265323486::1768432657::1768546600::1::::<><><>0<>0<>f4290b9530ac3cf96f77891710b507c5<>res://.godot/imported/op_wall.png-273003a35533e556da0c853e1a62f36d.s3tc.ctex::
 wall1.png::CompressedTexture2D::7917190460791264848::1768068915::1768546600::1::::<><><>0<>0<>718795771c6e7f0583fbbfd6450c4833<>res://.godot/imported/wall1.png-cc677b704b65a593f514635b8414024e.s3tc.ctex::
 wall2.png::CompressedTexture2D::996624560346904098::1768078197::1768546600::1::::<><><>0<>0<>54e0dc192ca071e435430b95c876cd99<>res://.godot/imported/wall2.png-3c20f7e4f227b9a678d2ea78d0d8c775.s3tc.ctex::
 Wall Base.png::CompressedTexture2D::2094529606169858409::1768423631::1768546600::1::::<><><>0<>0<>a63784b77631a3a1e51aaf4a89b1df04<>res://.godot/imported/Wall Base.png-86d3e8461497724931c3c5aeb0663efb.s3tc.ctex::
 wall_floor.png::CompressedTexture2D::964490306730620897::1768428194::1768546600::1::::<><><>0<>0<>84bfd8daeb39abecc6cb0113aabd499d<>res://.godot/imported/wall_floor.png-4b9c185223445660f450d35b28b26a11.s3tc.ctex::
-::res://assets/textures/apple market/::1769056344
+::res://assets/textures/apple market/::1771326222
 Apple Market Carpet Normal.png::CompressedTexture2D::323624415243670473::1768964255::1769056344::1::::<><><>0<>0<>07b3d5311847724aa24467b0c702ab15<>res://.godot/imported/Apple Market Carpet Normal.png-b7dddbee1dc416f6dd819d9b913d90dd.ctex::
 Apple Market Carpet.png::CompressedTexture2D::6235495814722724934::1768964230::1769056339::1::::<><><>0<>0<>cf87ada597c54c2cbcbcc4645adc9fd6<>res://.godot/imported/Apple Market Carpet.png-72d8bd22abd5def9908299a10b3efc89.ctex::
 ::res://assets/textures/dungeon/::1769063265
@@ -130,9 +139,10 @@ press_start.png::CompressedTexture2D::8404909065876029747::1769136971::176913712
 production.png::CompressedTexture2D::7559271353854212837::1769136975::1769137123::1::::<><><>0<>0<>f92b57414be188b52a0a9799423f5a59<>res://.godot/imported/production.png-823a523d4650cb06914a4f9e9f55c81a.ctex::
 title.png::CompressedTexture2D::3615466366973945516::1769136979::1769144536::1::::<><><>0<>0<>adfe2e6f71ae7c0cce461e6a699c1578<>res://.godot/imported/title.png-bf9fae9d53ed36c5840a43e66c4bd83b.s3tc.ctex::
 title_backdrop.png::CompressedTexture2D::4146636408618063908::1769137843::1769144258::1::::<><><>0<>0<>87b813497de12fd4029b63788ca32d1a<>res://.godot/imported/title_backdrop.png-0c15b2a7c4e4e1f3bf209f38007c16ae.s3tc.ctex::
-::res://assets/textures/shaders/::1769230403
+::res://assets/textures/shaders/::1771813301
 base_shader.tres::ShaderMaterial::7197340568872767867::1769063265::0::1::::<><><>0<>0<><>::uid://b2rfk5xdwbbha::::res://src/outline.gdshader<>uid://b4mlqo01kltyv::::res://src/cel-shader-base.gdshader<>uid://bc6du07aro4hw::::res://assets/models/Megaman/Megaman.png
-diffuse-texture.tres::GradientTexture1D::5732837325000121257::1769230403::0::1::::<><><>0<>0<><>::
+diffuse-texture.tres::GradientTexture1D::5732837325000121257::1771735706::0::1::::<><><>0<>0<><>::
+new_shader.gdshader::Shader::6904458249770788245::1771813285::0::1::::<><><>0<>0<><>::
 ::res://assets/textures/wall maps/::1768546602
 AmbientOcclusionMap.png::CompressedTexture2D::6015121871133679471::1768101576::1768546602::1::::<><><>0<>0<>92d487824cb173addf50d6ce0d9747d8<>res://.godot/imported/AmbientOcclusionMap.png-a242617bbcdc43fb4973d96f2df2118a.s3tc.ctex::
 DisplacementMap.png::CompressedTexture2D::6544004730692341002::1768101571::1768546602::1::::<><><>0<>0<>cad048fd2d1ae2445066b4fee288c670<>res://.godot/imported/DisplacementMap.png-71edc0976e356c38275dacc7144b9e7f.ctex::
@@ -140,45 +150,57 @@ NormalMap.png::CompressedTexture2D::2910695611178182136::1768101566::1768546602:
 SpecularMap.png::CompressedTexture2D::7260981625286066198::1768101561::1768546602::1::::<><><>0<>0<>6daa043c763e3c8138acfbc63b704f93<>res://.godot/imported/SpecularMap.png-448e53eade4a144e0809f3c92bbafa90.ctex::
 WallAO.png::CompressedTexture2D::632884243937394632::1768173895::1768546602::1::::<><><>0<>0<>d21a253870877901b4ad7f9e76f04582<>res://.godot/imported/WallAO.png-4558185641f8f31ffd430c6812725b58.s3tc.ctex::
 WallNormal.png::CompressedTexture2D::586363276015557923::1768173901::1768546602::1::::<><><>0<>0<>ca0b2406d55889772cd9d48cd23ce898<>res://.godot/imported/WallNormal.png-0c545e03ec56af1eecaf1c6540cf609e.s3tc.ctex::
-::res://scenes/::1769233455
+::res://scenes/::1771737688
+arena.tscn::PackedScene::5399522061711816626::1771737688::0::1::::<><><>0<>0<><>::uid://bqv85i5perlgv::::res://scenes/overworld/overworld_template.tscn<>uid://b6c0kq3ohlddi::::res://assets/lib.tres<>uid://dll1vlewnfnsp::::res://scenes/characters/horokko.tscn
+debug_menu.gd::GDScript::5615772299197575977::1769746538::0::1::::<>ItemList<><>0<>0<><>::
 main.gd::GDScript::1303789070538574934::1769233194::0::1::::<>Node3D<><>0<>0<><>::
-main.tscn::PackedScene::8493817666113932691::1769233194::0::1::::<><><>0<>0<><>::uid://stthleifspby::::res://scenes/main.gd
+main.tscn::PackedScene::8493817666113932691::1769622198::0::1::::<><><>0<>0<><>::uid://stthleifspby::::res://scenes/main.gd
 main_menu3d.tscn::PackedScene::3869703487347340203::1769230403::0::1::::<><><>0<>0<><>::uid://bcry186jo7jby::::res://scenes/main_menu.tscn<>uid://di6gwrlceap53::::res://assets/models/Servbot/Servbot.gltf<>uid://b505b0d13wlk3::::res://assets/models/Servbot/servbot.gd<>uid://brrmg5qlqcwv1::::res://assets/textures/Main Menu Resources/title.png<>uid://b0cwq4fwqofey::::res://assets/textures/Main Menu Resources/title_backdrop.png
 main_menu.gd::GDScript::5279294087163877115::1769233455::0::1::::<>Control<><>0<>0<><>::
-main_menu.tscn::PackedScene::2563398212844491806::1769233455::0::1::::<><><>0<>0<><>::uid://chhlg44ig5f0f::::res://scenes/main_menu.gd<>uid://dr0nvh0fhp284::::res://assets/textures/Main Menu Resources/press_start.png<>uid://dfx1dhtayxquf::::res://assets/textures/Main Menu Resources/production.png<>uid://cr372r7slxuq8::::res://assets/textures/Main Menu Resources/New Game.png<>uid://cachqek5ju6kq::::res://assets/textures/Main Menu Resources/Continue.png<>uid://cj7icpn5elhpx::::res://assets/textures/Main Menu Resources/Option.png<>uid://cmak7jnawjb3f::::res://scenes/debug_menu.gd<>uid://bbli0vot2xbo5::::res://assets/textures/Main Menu Resources/Normal.png
-debug_menu.gd::GDScript::5615772299197575977::1769233339::0::1::::<>ItemList<><>0<>0<><>::
+main_menu.tscn::PackedScene::2563398212844491806::1769746538::0::1::::<><><>0<>0<><>::uid://chhlg44ig5f0f::::res://scenes/main_menu.gd<>uid://dr0nvh0fhp284::::res://assets/textures/Main Menu Resources/press_start.png<>uid://dfx1dhtayxquf::::res://assets/textures/Main Menu Resources/production.png<>uid://cr372r7slxuq8::::res://assets/textures/Main Menu Resources/New Game.png<>uid://cachqek5ju6kq::::res://assets/textures/Main Menu Resources/Continue.png<>uid://cj7icpn5elhpx::::res://assets/textures/Main Menu Resources/Option.png<>uid://cmak7jnawjb3f::::res://scenes/debug_menu.gd<>uid://bbli0vot2xbo5::::res://assets/textures/Main Menu Resources/Normal.png
 warp_zone.tscn::PackedScene::4835274784780283842::1768101277::0::1::::<><><>0<>0<><>::
-::res://scenes/characters/::1769244310
-megaman.gd::GDScript::8478208011321277586::1769134441::0::1::::<>CharacterBody3D<><>0<>0<><>::
-megaman.tscn::PackedScene::3314374555458765605::1769244310::0::1::::<><><>0<>0<><>::uid://ds1532o5oaquk::::res://scenes/characters/megaman.gd<>uid://bmgf018ey8lcd::::res://assets/models/Megaman/Megaman.obj<>uid://86v3e20as1nt::::res://assets/models/Megaman/megaman.tres
-servbot.gd::GDScript::7775890613538906052::1769133517::0::1::::<>CharacterBody3D<><>0<>0<><>::
-Servbot.tscn::PackedScene::4626606067367475123::1769134087::0::1::::<><><>0<>0<><>::uid://di6gwrlceap53::::res://assets/models/Servbot/Servbot.gltf
-::res://scenes/dungeons/::1769259530
+::res://scenes/characters/::1771736040
+enemy_template.tscn::PackedScene::6229129722855828781::1771324033::0::1::::<><><>0<>0<><>::
+horokko.tscn::PackedScene::7955664214829480927::1771735706::0::1::::<><><>0<>0<><>::uid://cu0o4eb3s188x::::res://scenes/characters/enemy_template.tscn<>uid://b58i4sikmtuxc::::res://horokko.gd<>uid://cclcq2tbbrk5u::::res://assets/textures/horokko_ph.png
+horokko_bomb.tscn::PackedScene::3731362699179531846::1771341242::0::1::::<><><>0<>0<><>::uid://dqekqy5ydti6h::::res://horokko_bomb.gd
+megaman.gd::GDScript::8478208011321277586::1771736040::0::1::::<>CharacterBody3D<><>0<>0<><>::
+megaman.tscn::PackedScene::3314374555458765605::1771406459::0::1::::<><><>0<>0<><>::uid://ds1532o5oaquk::::res://scenes/characters/megaman.gd<>uid://bmgf018ey8lcd::::res://assets/models/Megaman/Megaman.obj<>uid://86v3e20as1nt::::res://assets/models/Megaman/megaman.tres
+servbot.gd::GDScript::7775890613538906052::1769743370::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Servbot.tscn::PackedScene::4626606067367475123::1769618441::0::1::::<><><>0<>0<><>::uid://di6gwrlceap53::::res://assets/models/Servbot/Servbot.gltf
+::res://scenes/dungeons/::1769925569
 camera_3d.gd::GDScript::1352494915870778307::1769134789::0::1::::<>Camera3D<><>0<>0<><>::
-dungeon_template.tscn::PackedScene::4220004807060199358::1769256954::0::1::::<><><>0<>0<><>::uid://b6c0kq3ohlddi::::res://assets/lib.tres<>uid://bnhri88p0nehp::::res://scenes/characters/megaman.tscn
-introductory_dungeon.tscn::PackedScene::6011063647177969225::1769120737::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn
+dungeon_template.tscn::PackedScene::4220004807060199358::1769747881::0::1::::<><><>0<>0<><>::uid://b6c0kq3ohlddi::::res://assets/lib.tres<>uid://bnhri88p0nehp::::res://scenes/characters/megaman.tscn
+introductory_dungeon.gd::GDScript::1211407457579631816::1769925561::0::1::::<>Node3D<><>0<>0<><>::
+introductory_dungeon.tscn::PackedScene::6011063647177969225::1769925569::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://ri2x6vvm40cy::::res://scenes/dungeons/introductory_dungeon.gd
+intro_boss.tscn::PackedScene::6634775612059737611::1769925561::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn
 main_sub_gate_1.gd::GDScript::6907247448029724195::1769055331::0::1::::<>Node3D<><>0<>0<><>::
-main_sub_gate_1.tscn::PackedScene::52080889247670715::1769257006::0::1::::<><><>0<>0<><>::uid://b6c0kq3ohlddi::::res://assets/lib.tres<>uid://c5n6md5kvodl8::::res://scenes/dungeons/main_sub_gate_1.gd<>uid://bnhri88p0nehp::::res://scenes/characters/megaman.tscn<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://bd8ukw1q3dywo::::res://assets/objs/dungeons/Ramp_walls.obj
-main_sub_gate_2.gd::GDScript::7891944358694274311::1769255173::0::1::::<>Node3D<><>0<>0<><>::
-main_sub_gate_2.tscn::PackedScene::7581988518470861489::1769259301::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://dko6f2fxyyq4n::::res://scenes/dungeons/main_sub_gate_2.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://d22fem8wb0vg4::::res://assets/objs/dungeons/funky_guy.obj<>uid://bd8ukw1q3dywo::::res://assets/objs/dungeons/Ramp_walls.obj
+main_sub_gate_1.tscn::PackedScene::52080889247670715::1769264722::0::1::::<><><>0<>0<><>::uid://b6c0kq3ohlddi::::res://assets/lib.tres<>uid://c5n6md5kvodl8::::res://scenes/dungeons/main_sub_gate_1.gd<>uid://bnhri88p0nehp::::res://scenes/characters/megaman.tscn<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://bd8ukw1q3dywo::::res://assets/objs/dungeons/Ramp_walls.obj<>uid://d22fem8wb0vg4::::res://assets/objs/dungeons/funky_guy.obj
+main_sub_gate_2.gd::GDScript::7891944358694274311::1769260521::0::1::::<>Node3D<><>0<>0<><>::
+main_sub_gate_2.tscn::PackedScene::7581988518470861489::1769267566::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://dko6f2fxyyq4n::::res://scenes/dungeons/main_sub_gate_2.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://d22fem8wb0vg4::::res://assets/objs/dungeons/funky_guy.obj<>uid://bd8ukw1q3dywo::::res://assets/objs/dungeons/Ramp_walls.obj
 main_sub_gate_3.gd::GDScript::3706075552196017109::1769255173::0::1::::<>Node3D<><>0<>0<><>::
-main_sub_gate_3.tscn::PackedScene::4369774344836644146::1769259530::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://bs2ir1pjybdr6::::res://scenes/dungeons/main_sub_gate_3.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn
+main_sub_gate_3.tscn::PackedScene::4369774344836644146::1769260523::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://bs2ir1pjybdr6::::res://scenes/dungeons/main_sub_gate_3.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn
 main_sub_gate_4.gd::GDScript::8499219891972216672::1769255173::0::1::::<>Node3D<><>0<>0<><>::
 main_sub_gate_4.tscn::PackedScene::3312483693869198060::1769259314::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://dtdc562q8ulu3::::res://scenes/dungeons/main_sub_gate_4.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://bd8ukw1q3dywo::::res://assets/objs/dungeons/Ramp_walls.obj<>uid://b1gioso5rf461::::res://assets/objs/dungeons/Ramp_walls_short.obj
 main_sub_gate_5.gd::GDScript::7318074562677538986::1769255173::0::1::::<>Node3D<><>0<>0<><>::
-main_sub_gate_5.tscn::PackedScene::7840222862593073663::1769257132::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://dci6vbn2haj1c::::res://scenes/dungeons/main_sub_gate_5.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn
+main_sub_gate_5.tscn::PackedScene::7840222862593073663::1769261081::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://dci6vbn2haj1c::::res://scenes/dungeons/main_sub_gate_5.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://d22fem8wb0vg4::::res://assets/objs/dungeons/funky_guy.obj
 main_sub_gate_6.gd::GDScript::6569420865054788728::1769255173::0::1::::<>Node3D<><>0<>0<><>::
-main_sub_gate_6.tscn::PackedScene::1845288099363621557::1769259324::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://c0ujnwsblpkw3::::res://scenes/dungeons/main_sub_gate_6.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://b1gioso5rf461::::res://assets/objs/dungeons/Ramp_walls_short.obj
+main_sub_gate_6.tscn::PackedScene::1845288099363621557::1769261152::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://c0ujnwsblpkw3::::res://scenes/dungeons/main_sub_gate_6.gd<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://b1gioso5rf461::::res://assets/objs/dungeons/Ramp_walls_short.obj
 main_sub_gate_7.gd::GDScript::1505359836907189335::1769055331::0::1::::<>Node3D<><>0<>0<><>::
-main_sub_gate_7.tscn::PackedScene::3552742260867767462::1769258228::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://vphb6n0jdacl::::res://scenes/dungeons/main_sub_gate_7.gd
+main_sub_gate_7.tscn::PackedScene::3552742260867767462::1769261295::0::1::::<><><>0<>0<><>::uid://b1eg4lgqwdml7::::res://scenes/dungeons/dungeon_template.tscn<>uid://ca5ijfjdvqu1o::::res://scenes/warp_zone.tscn<>uid://vphb6n0jdacl::::res://scenes/dungeons/main_sub_gate_7.gd
 test.tscn::PackedScene::1207587552467055460::1769135047::0::1::::<><><>0<>0<><>::uid://b6c0kq3ohlddi::::res://assets/lib.tres<>uid://b66fr5a452qet::::res://scenes/characters/Servbot.tscn<>uid://di1x1um27lwye::::res://scenes/characters/servbot.gd<>uid://qy5jeumf5kjq::::res://assets/models/Servbot/Servbot2.gltf
-::res://scenes/overworld/::1769231407
-apple_market.tscn::PackedScene::9125285801648399490::1769231407::0::1::::<><><>0<>0<><>::uid://bqv85i5perlgv::::res://scenes/overworld/overworld_template.tscn<>uid://bi6q1t7jd4oni::::res://assets/apple_market_lib.tres<>uid://b66fr5a452qet::::res://scenes/characters/Servbot.tscn<>uid://di1x1um27lwye::::res://scenes/characters/servbot.gd<>uid://b51n3das4ao8w::::res://assets/objs/Apple Market/Produce Stand.obj<>uid://cp3mb0wqt1bxj::::res://assets/objs/Apple Market/ProduceStand.png<>uid://bdo5sjt7xd26h::::res://assets/objs/Apple Market/Apple Market Sign.png<>uid://bpgcksxtlwj2f::::res://assets/objs/Apple Market/Apple Market Sign.obj
+::res://scenes/overworld/::1771323324
+apple_market.tscn::PackedScene::9125285801648399490::1769622156::0::1::::<><><>0<>0<><>::uid://bqv85i5perlgv::::res://scenes/overworld/overworld_template.tscn<>uid://bi6q1t7jd4oni::::res://assets/apple_market_lib.tres<>uid://b66fr5a452qet::::res://scenes/characters/Servbot.tscn<>uid://di1x1um27lwye::::res://scenes/characters/servbot.gd<>uid://b51n3das4ao8w::::res://assets/objs/Apple Market/Produce Stand.obj<>uid://cp3mb0wqt1bxj::::res://assets/objs/Apple Market/ProduceStand.png<>uid://bdo5sjt7xd26h::::res://assets/objs/Apple Market/Apple Market Sign.png<>uid://bpgcksxtlwj2f::::res://assets/objs/Apple Market/Apple Market Sign.obj
+cardon_forest_north.tscn::PackedScene::7145264630844116515::1771323324::0::1::::<><><>0<>0<><>::uid://bqv85i5perlgv::::res://scenes/overworld/overworld_template.tscn<>uid://sxeccegs27f::::res://assets/overworld_lib.tres
+cardon_forest_south.tscn::PackedScene::2357579664435131035::1771323240::0::1::::<><><>0<>0<><>::uid://bqv85i5perlgv::::res://scenes/overworld/overworld_template.tscn<>uid://sxeccegs27f::::res://assets/overworld_lib.tres
+Downtown.tscn::PackedScene::5477518472228955640::1769334747::0::1::::<><><>0<>0<><>::uid://bqv85i5perlgv::::res://scenes/overworld/overworld_template.tscn<>uid://demt46gbyu2nv::::res://assets/city_lib.tres
 Flutter.tscn::PackedScene::4951797854155274477::1769075325::0::1::::<><><>0<>0<><>::uid://bqv85i5perlgv::::res://scenes/overworld/overworld_template.tscn<>uid://6n7s5n6ee4ip::::res://assets/flutter_lib.tres<>uid://cbmn3mk2vwx7y::::res://assets/objs/general/Full_3x4.obj<>uid://bopxvdaiaplqj::::res://assets/objs/general/Full_Half.obj<>uid://30mol0qcvl8w::::res://assets/objs/general/Full_Floor.obj<>uid://skb7s5iuehou::::res://assets/objs/general/Half_3x4.obj<>uid://bywqqtxqsln7q::::res://assets/objs/general/Half_Half.obj<>uid://cg1xlqh5e1dy8::::res://assets/objs/flutter/Gramps_Wall.obj<>uid://irrk54agy1mf::::res://assets/objs/flutter/Roll_Wall.obj<>uid://c5w33fuqcb4ar::::res://assets/objs/flutter/Rock_Wall.obj
 overworld_template.tscn::PackedScene::3554851816533806133::1768889301::0::1::::<><><>0<>0<><>::uid://bnhri88p0nehp::::res://scenes/characters/megaman.tscn
-::res://src/::1769230403
-cel-shader-base.gdshader::Shader::4447366917009818889::1769230403::0::1::::<><><>0<>0<><>::
-outline.gdshader::Shader::4316936938038625146::1769230403::0::1::::<><><>0<>0<><>::
+::res://scenes/UI/::1769746213
+dialogue.gd::GDScript::8485608662953458044::1769746213::0::1::::<>Control<><>0<>0<><>::
+dialogue.tscn::PackedScene::7166699051014757295::1769745442::0::1::::<><><>0<>0<><>::uid://ds5qy8tetvboe::::res://scenes/UI/dialogue.gd
+::res://src/::1771735706
+cel-shader-base.gdshader::Shader::4447366917009818889::1771735706::0::1::::<><><>0<>0<><>::
+outline.gdshader::Shader::4316936938038625146::1771735706::0::1::::<><><>0<>0<><>::
 ::res://src/includes/::1769055650
 anisotropy.gdshaderinc::ShaderInclude::2228773307465460592::1769055016::0::1::::<><><>0<>0<><>::
 backlight.gdshaderinc::ShaderInclude::4217896738402464210::1769055016::0::1::::<><><>0<>0<><>::

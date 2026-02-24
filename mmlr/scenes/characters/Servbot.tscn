@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://b66fr5a452qet"]
+[gd_scene load_steps=4 format=3 uid="uid://b66fr5a452qet"]
 
 [ext_resource type="PackedScene" uid="uid://di6gwrlceap53" path="res://assets/models/Servbot/Servbot.gltf" id="1_jncfr"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_bwt66"]
 height = 2.194336
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_mjxgx"]
 
 [node name="Servbot" type="CharacterBody3D"]
 transform = Transform3D(0.07, 0, 0, 0, 0.07, 0, 0, 0, 0.07, 0, 0, 0)
@@ -13,3 +15,9 @@ transform = Transform3D(0.07, 0, 0, 0, 0.07, 0, 0, 0, 0.07, 0, 0, 0)
 [node name="collision" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.097168, 0)
 shape = SubResource("CylinderShape3D_bwt66")
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CylinderShape3D_mjxgx")

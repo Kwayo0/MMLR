@@ -1,14 +1,14 @@
-MeshInstance3D
-OmniLight3D
-DirectionalLight3D
-CollisionShape3D
+Area3D
 StaticBody3D
-ItemList
-Panel
-Control
+CollisionShape3D
+Label3D      - Matches the "text" keyword.
+MeshInstance3D
+Timer
+OmniLight3D
 WorldEnvironment
 Node3D
 Camera3D
-TextureRect
-TextEdit
+RayCast3D
 CharacterBody3D
+Node
+MarginContainer

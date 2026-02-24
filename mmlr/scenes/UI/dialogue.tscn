@@ -1,0 +1,65 @@
+[gd_scene load_steps=3 format=3 uid="uid://daduqsfvmyqxb"]
+
+[ext_resource type="Script" uid="uid://ds5qy8tetvboe" path="res://scenes/UI/dialogue.gd" id="1_mkbqr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mkbqr"]
+bg_color = Color(0.0627451, 0, 0.3764706, 0.7529412)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+
+[node name="Dialogue" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mkbqr")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -813.0
+offset_top = -372.0
+offset_right = 813.0
+offset_bottom = -75.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_mkbqr")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel/VBoxContainer"]
+custom_minimum_size = Vector2(1600, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+
+[node name="name" type="RichTextLabel" parent="Panel/VBoxContainer/MarginContainer"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 56
+
+[node name="MarginContainer2" type="MarginContainer" parent="Panel/VBoxContainer"]
+custom_minimum_size = Vector2(1600, 220)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="speech" type="RichTextLabel" parent="Panel/VBoxContainer/MarginContainer2"]
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 48

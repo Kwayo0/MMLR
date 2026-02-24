@@ -1,12 +1,13 @@
 E:/Projects/Godot/mmlr_git
-res://assets
 res://scenes
+res://
 res://scenes/characters
-res://assets/models/Servbot
+res://assets
+res://scenes/overworld
 res://scenes/dungeons
+res://scenes/UI
+res://assets/models/Servbot
 res://src
 res://assets/textures/shaders
 res://assets/models
 res://assets/textures
-res://scenes/overworld
-res://

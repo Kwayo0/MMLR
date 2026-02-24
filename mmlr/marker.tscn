@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://rfqha5mlpxb7"]
+
+[ext_resource type="Shader" uid="uid://c5mtoh6ov3qbd" path="res://assets/textures/shaders/mask.gdshader" id="1_f37rb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f37rb"]
+transparency = 1
+no_depth_test = true
+
+[sub_resource type="SphereMesh" id="SphereMesh_15koh"]
+radius = 0.05
+height = 0.1
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mnpm0"]
+render_priority = 2
+shader = ExtResource("1_f37rb")
+
+[sub_resource type="SphereMesh" id="SphereMesh_any7m"]
+material = SubResource("ShaderMaterial_mnpm0")
+radius = 0.025
+height = 0.05
+
+[node name="Marker" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_f37rb")
+mesh = SubResource("SphereMesh_15koh")
+
+[node name="mask" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_any7m")

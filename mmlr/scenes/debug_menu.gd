@@ -14,3 +14,10 @@ func _on_item_activated(index: int) -> void:
 		1:
 			get_parent().get_parent().get_parent().get_parent().add_child(load("res://scenes/overworld/apple_market.tscn").instantiate())
 			get_parent().get_parent().get_parent().queue_free()
+		2:
+			get_parent().get_parent().get_parent().get_parent().add_child(load("res://scenes/dungeons/introductory_dungeon.tscn").instantiate())
+			get_parent().get_parent().get_parent().queue_free()
+		3:
+			get_parent().get_parent().get_parent().get_parent().add_child(load("res://scenes/arena.tscn").instantiate())
+			get_parent().get_parent().get_parent().queue_free()
+			

@@ -48,29 +48,35 @@ metadata/_editor_floor_ = Vector3(0, 0, 0)
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." index="2"]
 environment = SubResource("Environment_0tmil")
 
-[node name="Servbot" parent="." index="3" instance=ExtResource("3_07x2y")]
+[node name="Servbot" parent="." index="3" node_paths=PackedStringArray("megaman") instance=ExtResource("3_07x2y")]
 transform = Transform3D(-0.06875873, 0, -0.013123887, 0, 0.06999999, 0, 0.013123887, 0, -0.06875873, 1.3490245, 0, -5.703308)
 script = ExtResource("4_m52ce")
+megaman = NodePath("../Megaman")
 
-[node name="Servbot2" parent="." index="4" instance=ExtResource("3_07x2y")]
+[node name="Servbot2" parent="." index="4" node_paths=PackedStringArray("megaman") instance=ExtResource("3_07x2y")]
 transform = Transform3D(-0.058196764, 0, 0.038899057, 0, 0.06999999, 0, -0.038899057, 0, -0.058196764, -0.0112784505, 1.1920929e-07, -9.180677)
 script = ExtResource("4_m52ce")
+megaman = NodePath("../Megaman")
 
-[node name="Servbot3" parent="." index="5" instance=ExtResource("3_07x2y")]
+[node name="Servbot3" parent="." index="5" node_paths=PackedStringArray("megaman") instance=ExtResource("3_07x2y")]
 transform = Transform3D(0.06981335, 0, -0.0051084007, 0, 0.069999985, 0, 0.0051084007, 0, 0.06981335, 1.3810939, 0.24911337, -7.064198)
 script = ExtResource("4_m52ce")
+megaman = NodePath("../Megaman")
 
-[node name="Servbot4" parent="." index="6" instance=ExtResource("3_07x2y")]
+[node name="Servbot4" parent="." index="6" node_paths=PackedStringArray("megaman") instance=ExtResource("3_07x2y")]
 transform = Transform3D(-0.0375883, 0, -0.05905184, 0, 0.07, 0, 0.05905184, 0, -0.0375883, -0.8622015, 0.13474752, -3.5752842)
 script = ExtResource("4_m52ce")
+megaman = NodePath("../Megaman")
 
-[node name="Servbot5" parent="." index="7" instance=ExtResource("3_07x2y")]
+[node name="Servbot5" parent="." index="7" node_paths=PackedStringArray("megaman") instance=ExtResource("3_07x2y")]
 transform = Transform3D(-0.05408592, 0, 0.04443774, 0, 0.06999999, 0, -0.04443774, 0, -0.05408592, 0.7599152, 0, -1.4795139)
 script = ExtResource("4_m52ce")
+megaman = NodePath("../Megaman")
 
-[node name="Servbot6" parent="." index="8" instance=ExtResource("3_07x2y")]
+[node name="Servbot6" parent="." index="8" node_paths=PackedStringArray("megaman") instance=ExtResource("3_07x2y")]
 transform = Transform3D(-0.0375883, 0, -0.05905184, 0, 0.07, 0, 0.05905184, 0, -0.0375883, -0.8240807, 0, -1.1686927)
 script = ExtResource("4_m52ce")
+megaman = NodePath("../Megaman")
 
 [node name="Objects" type="Node3D" parent="." index="9"]
 

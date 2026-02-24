@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bnhri88p0nehp"]
+[gd_scene load_steps=6 format=3 uid="uid://bnhri88p0nehp"]
 
 [ext_resource type="Script" uid="uid://ds1532o5oaquk" path="res://scenes/characters/megaman.gd" id="1_dpkyf"]
 [ext_resource type="ArrayMesh" uid="uid://bmgf018ey8lcd" path="res://assets/models/Megaman/Megaman.obj" id="2_cp366"]
@@ -7,6 +7,9 @@
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_g3sek"]
 radius = 0.040039063
 height = 0.3067932
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_g3sek"]
+points = PackedVector3Array(-5, 20, 10, -5, -20, 10, 5, 20, 10, 5, -20, 10, 10, 20, -10, -10, 20, -10, 10, -20, -10, -10, -20, -10)
 
 [node name="Megaman" type="CharacterBody3D"]
 script = ExtResource("1_dpkyf")
@@ -20,8 +23,33 @@ transform = Transform3D(0.005, 0, 0, 0, 0.005, 0, 0, 0, 0.005, 0, 0.18228465, 0)
 material_override = ExtResource("2_g3sek")
 mesh = ExtResource("2_cp366")
 
+[node name="interaction" type="Area3D" parent="Megaman"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Megaman/interaction"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.5, -22.978268)
+shape = SubResource("ConvexPolygonShape3D_g3sek")
+
 [node name="Head" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25733724, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Head"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.00960654, 0.5559052)
+
+[node name="Zoom" type="Timer" parent="Head/Camera3D"]
+wait_time = 0.2
+one_shot = true
+
+[node name="KB" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="Fire" type="Timer" parent="."]
+wait_time = 0.25
+one_shot = true
+
+[node name="Burst Delay" type="Timer" parent="."]
+wait_time = 0.7
+one_shot = true
+
+[connection signal="timeout" from="Head/Camera3D/Zoom" to="." method="_on_zoom_timeout"]
+[connection signal="timeout" from="Burst Delay" to="." method="_on_burst_delay_timeout"]

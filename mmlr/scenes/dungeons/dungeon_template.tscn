@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://b1eg4lgqwdml7"]
+[gd_scene load_steps=6 format=3 uid="uid://b1eg4lgqwdml7"]
 
 [ext_resource type="MeshLibrary" uid="uid://b6c0kq3ohlddi" path="res://assets/lib.tres" id="1_lpe30"]
 [ext_resource type="PackedScene" uid="uid://bnhri88p0nehp" path="res://scenes/characters/megaman.tscn" id="2_4juoy"]
+[ext_resource type="PackedScene" uid="uid://rfqha5mlpxb7" path="res://marker.tscn" id="3_bfkvf"]
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_xvgsr"]
 
@@ -15,10 +16,12 @@ ambient_light_energy = 0.5
 
 [node name="GridMap" type="GridMap" parent="."]
 mesh_library = ExtResource("1_lpe30")
-cell_size = Vector3(1, 1, 1)
-metadata/_editor_floor_ = Vector3(0, -2, 0)
+cell_size = Vector3(1, 0.75, 1)
+metadata/_editor_floor_ = Vector3(0, 0, 0)
 
-[node name="Megaman" parent="." instance=ExtResource("2_4juoy")]
+[node name="Megaman" parent="." node_paths=PackedStringArray("marker") instance=ExtResource("2_4juoy")]
+process_mode = 1
+marker = NodePath("../Other/Marker")
 
 [node name="OmniLight3D" type="OmniLight3D" parent="Megaman"]
 
@@ -33,3 +36,10 @@ environment = SubResource("Environment_oqwcg")
 [node name="Objects" type="Node3D" parent="."]
 
 [node name="Surfaces" type="Node3D" parent="."]
+
+[node name="Projectiles" type="Node3D" parent="."]
+
+[node name="Other" type="Node3D" parent="."]
+
+[node name="Marker" parent="Other" instance=ExtResource("3_bfkvf")]
+visible = false

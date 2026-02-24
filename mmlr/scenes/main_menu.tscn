@@ -135,9 +135,11 @@ offset_right = -814.0001
 offset_bottom = -363.95996
 grow_horizontal = 2
 grow_vertical = 0
-item_count = 2
+item_count = 4
 item_0/text = "Ruins"
 item_1/text = "Apple Market"
+item_2/text = "Intro Dungeon"
+item_3/text = "Arena"
 script = ExtResource("8_tbmy8")
 
 [connection signal="item_activated" from="NewContOpt/ItemList" to="." method="_on_item_list_item_activated"]
